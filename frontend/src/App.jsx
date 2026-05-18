@@ -31,7 +31,7 @@ function App() {
       });
 
       // إرسال الصور للسيرفر
-      const response = await fetch('http://localhost:8000/convert', {
+      const response = await fetch('https://image2reality-backend.onrender.comconvert', {
         method: 'POST',
         body: formData
       });
