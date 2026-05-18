@@ -1,9 +1,16 @@
-frontend/node_modules
-frontend/dist
-backend/__pycache__
-backend/uploads
-backend/output
-*.pyc
+# Environment variables (مهم جداً - يحتوي على المفتاح السري!)
 .env
-.DS_Store
+backend/.env
+frontend/.env
+
+# Python cache
+__pycache__/
+backend/__pycache__/
+*.pyc
+
+# Upload & Output folders
+backend/uploads/
+backend/output/
+
+# Windows
 Thumbs.db
